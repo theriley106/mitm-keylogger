@@ -1,2 +1,3 @@
-# hunter2
-Proxy to remove password field text obfuscation network wide
+# mitm-proxy
+Using a MITM proxy to add a browser-based keylogger to devices on your local network
+
