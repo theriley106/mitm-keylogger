@@ -13,8 +13,6 @@ hupexit() {
 trap hupexit HUP
 trap intexit INT
 
-./mitmdump --no-http2 -p 8084 -s ./mitmProxyTest.py &
-./app.py &
-./browser.py &
+./mitmdump --no-http2 -p 8084 -s ./main.py &
 
 wait
