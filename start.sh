@@ -14,5 +14,6 @@ trap hupexit HUP
 trap intexit INT
 
 ./mitmdump --no-http2 -p 8084 -s ./main.py &
+./app.py &
 
 wait
