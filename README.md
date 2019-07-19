@@ -12,9 +12,17 @@ This works by injecting the following Javascript code into every request that ta
 
 ## Demo
 
+### Client Side
+
+The user browses the web normally and does not experience any warnings/interuptions.
+
 <p align="center">
 <img width=500px src ="static/demo.gif">
 </p>
+
+### Server Side
+
+On the server side, we have logic that categorizes the keystrokes by the hostname of the site the request is sent from.  It saves the keystrokes by hostname in the root directory of the project.
 
 ```bash
 $ cat www.ebay.com
