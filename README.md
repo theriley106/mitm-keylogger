@@ -6,9 +6,11 @@ Using a MITM proxy to add a browser-based keylogger to devices on your local net
 This works by injecting the following Javascript code into every request that takes place on the network.
 
 <p align="center">
-<img src ="static/code.png">
+<img width=700px src ="static/code.png">
 </p>
 
+
+## Demo
 
 <p align="center">
 <img width=500px src ="static/demo.gif">
