@@ -10,4 +10,6 @@ This works by injecting the following Javascript code into every request that ta
 </p>
 
 
-![](static/demo.gif)
+<p align="center">
+<img width=500px src ="static/demo.gif">
+</p>
