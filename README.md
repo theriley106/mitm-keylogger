@@ -8,3 +8,6 @@ This works by injecting the following Javascript code into every request that ta
 <p align="center">
 <img src ="static/code.png">
 </p>
+
+
+![](static/demo.gif)
